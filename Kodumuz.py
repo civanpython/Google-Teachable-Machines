@@ -5,8 +5,8 @@ import time  # Eklediğimiz zaman modülü
 
 np.set_printoptions(suppress=True)
 
-model = load_model("C:\\Users\\celeb\\Desktop\\akilli-chatbot\\keras_model.h5", compile=False)
-class_names = open("C:\\Users\\celeb\\Desktop\\akilli-chatbot\\labels.txt", "r").readlines()
+model = load_model("<Keras modelin dosya yolu>", compile=False)
+class_names = open("<labels.txt'in dosya yolu>", "r").readlines()
 
 camera = cv2.VideoCapture(0)
 
@@ -40,3 +40,5 @@ while True:
 
 camera.release()
 cv2.destroyAllWindows()
+
+# Civan Çelebi

@@ -1,2 +1,2 @@
 # Google-Teachable-Machines
-içinde Emir , Civan , Parol , Raspberry Pİ kutusu ve anahtarlar var. Bunu kendimiz ayarlayacağız.
+link : https://teachablemachine.withgoogle.com/train/image
